@@ -1,0 +1,40 @@
+
+table{
+width 100%;
+}
+
+#tableHeader{
+background-color: green;
+}
+
+
+th, td{
+border: 1px solid black;
+text-align: left;
+padding:6px;
+}
+
+tr:nth-child(even){
+background-color: grey;
+}
+
+
+button{
+background-color: blue;
+color: white;
+padding: 14px 20px;
+margin:8px;
+border-radius:6px;
+border:none;
+cursor:pointer;
+
+}
+
+input{
+ width: 50%;
+ padding: 10px;
+ margin: 5px;
+ border: 1px solid black;
+ border-radius: 6px;
+
+}
